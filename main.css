@@ -1,0 +1,52 @@
+body {
+  height:700px;
+  background:radial-gradient(#242424,#1f1f1f,#080808);
+}
+
+.container {
+  width:40%;
+  margin:0 auto;
+  margin-top:10%;
+  border:1px solid grey;
+  border-radius:5px;
+}
+
+h1 {
+  font-family:arial;
+  text-align:center;
+  background-color:lightgreen;
+  border:1px solid green;
+  margin:0;
+  border-radius:5px;
+}
+
+h1:hover {
+  background-color:#b0f3b0;
+}
+
+p {
+  font-family:helvetica;
+  border-radius:5px;
+  margin:0;
+  padding:15px;
+  padding-top:15px;
+  transition:all .5s ease;
+}
+
+p:hover {
+  height:100%;
+}
+
+.sections {
+  transform: translate3d(0,0,0);
+  height:35px;
+  overflow:hidden;
+  background-color:lightcyan;
+  transition:all .5s ease;
+}
+
+.on {
+  height:250px;
+  backround-color:lightcyan;
+  overflow:auto;
+}
