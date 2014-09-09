@@ -4,9 +4,9 @@ body {
 }
 
 .container {
-  width:40%;
+  width:25%;
   margin:0 auto;
-  margin-top:10%;
+  margin-top:8%;
   border:1px solid grey;
   border-radius:5px;
 }
@@ -46,7 +46,11 @@ p:hover {
 }
 
 .on {
-  height:250px;
-  backround-color:lightcyan;
-  overflow:auto;
+  height:380px;
+  overflow:hidden;
+}
+
+.something {
+  color:grey;
+  font-size:40px;
 }
